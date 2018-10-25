@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="font.css">
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="style600screen.css">
+      <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 </head>
 <body>
@@ -40,6 +41,7 @@
 
         <div class="menu-img move_menu">
             <a href=""><img class="bigger_img" src="Images/cart-icon.svg" alt="cart-icon" width="40px;"></a>
+            <span class="buying" id="bcart">0</span>
         </div> 
 
     </header>
@@ -49,7 +51,7 @@
     <!-- New collection secction -->
     <section class="new_collection">
         <p style="font-size: 1.2rem">New Collection</p>
-        <h1>Spring/Summer 2018 </h1>
+        <h1 id="message">Spring/Summer 2018 </h1>
 
     </section>
 
@@ -86,7 +88,7 @@
         </div>
     </section>
 
-    <!--Section Products-->
+    <!--Section Products 1
 
     <section class="products">    
         <h2 class="title_crafted"><span class="title_crafted_light">Most-loved</span> Products</h2>
@@ -98,18 +100,21 @@
              <P>Dresses</P>
              <p class="red_letter">stretch knit dress</p>
              <p>$169.00</p>
+             <button class="buyingButton">Add to cart</button>
         </div>    
         <div>
              <img src="Images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
              <P>shirts</P>
              <p class="red_letter">cotton blue shirt</p>
              <p>$89.00</p>
+             <button class="buyingButton">Add to cart</button>
         </div>
         <div>
             <img src="Images/checked-stretch-dress.jpg" alt="Red checked-stretch-dress">
             <P>Dresses</P>
             <p class="red_letter">checked stretch dress</p>
             <p>$129.00</p>
+            <button class="buyingButton">Add to cart</button>
         </div>
 
         <div>
@@ -117,6 +122,7 @@
                 <P>Bags</P>
                 <p class="red_letter">blue hipster backpack</p>
                 <p>$69.00</p>
+                <button class="buyingButton">Add to cart</button>
         </div>
 
         <div>
@@ -124,17 +130,75 @@
                 <P>Demin</P>
                 <p class="red_letter">demin overall shorts</p>
                 <p>$89.00</p>
+                <button class="buyingButton">Add to cart</button>
         </div>
         <div>
                 <img src="Images/pink-dotted-dress.jpg" alt="pink-dotted-dress">
                 <P>Dresses</P>
                 <p class="red_letter">pink dotted dress</p>
                 <p>$99.00</p>
+                <button class="buyingButton">Add to cart</button>
         </div>
       </div>
 
     </section>  
+-->
+     <!--Section Products-->
 
+     <section class="products">    
+        <h2 class="title_crafted"><span class="title_crafted_light">Most-loved</span> Products</h2>
+     
+     <div class="carousel" data-flickity='{ "groupCells": true }'>
+        
+        <div class="carousel-cell">
+             <img src="Images/stretch-knit-dress.jpg" alt="stretch-knit-dress">
+             <P>Dresses</P>
+             <p class="red_letter">stretch knit dress</p>
+             <p>$169.00</p>
+             <button class="buyingButton">Add to cart</button>
+        </div>    
+        <div class="carousel-cell">
+             <img src="Images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
+             <P>shirts</P>
+             <p class="red_letter">cotton blue shirt</p>
+             <p>$89.00</p>
+             <button class="buyingButton">Add to cart</button>
+        </div>
+        <div class="carousel-cell">
+            <img src="Images/checked-stretch-dress.jpg" alt="Red checked-stretch-dress">
+            <P>Dresses</P>
+            <p class="red_letter">checked stretch dress</p>
+            <p>$129.00</p>
+            <button class="buyingButton">Add to cart</button>
+        </div>
+
+        <div class="carousel-cell">
+                <img src="Images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
+                <P>Bags</P>
+                <p class="red_letter">blue hipster backpack</p>
+                <p>$69.00</p>
+                <button class="buyingButton">Add to cart</button>
+        </div >
+
+        <div class="carousel-cell">
+                <img src="Images/demin-overall-shorts.jpg" alt="demin-overall-shorts">
+                <P>Demin</P>
+                <p class="red_letter">demin overall shorts</p>
+                <p>$89.00</p>
+                <button class="buyingButton">Add to cart</button>
+        </div>
+        <div class="carousel-cell">
+                <img src="Images/pink-dotted-dress.jpg" alt="pink-dotted-dress">
+                <P>Dresses</P>
+                <p class="red_letter">pink dotted dress</p>
+                <p>$99.00</p>
+                <button class="buyingButton">Add to cart</button>
+        </div>
+      </div>
+
+    </section> 
+
+ 
 <!--Sign up section-->
 
     <section class="sign_up">
@@ -178,6 +242,11 @@
                 </ul>
             </div>
     </footer>
+
+    <!-- JavaScript-->
+    <script src="Js/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="Js/aloha.js"></script>
     
 </body>
 </html>

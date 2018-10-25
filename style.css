@@ -21,6 +21,7 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 120px;
+   
 }
 
 .menu-img{
@@ -41,6 +42,23 @@ img:active{
     background-color:rgb(6, 112, 63);
     
     border-radius: 50%;
+}
+
+.buying{
+    
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #b64036;
+    color: #d7d7d7;
+    border-radius: 50%;
+    height: 18px;
+    min-width: 18px;
+    text-shadow: 1px 1px #242424;
+    padding:1px;
+   
+
+   
 }
 /* Section NAV */
 
@@ -195,7 +213,7 @@ font-weight: bold;
     padding-top: 50px;
     padding-bottom: 50px;
     text-transform: capitalize;
-    width: 75%;
+    width: 70%;
     margin:auto;
     text-align: center;
     
@@ -219,7 +237,6 @@ font-weight: bold;
     display:flex;
     flex-wrap: nowrap;
     padding: 10px;
-    width: 260px;
     justify-content: center;
 }
 
@@ -231,6 +248,39 @@ font-weight: bold;
    
     
 }
+
+.buyingButton{
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    border:none;
+    padding: 5px 15px;
+    margin-bottom: 30px;
+    margin-top:10px;
+    cursor: pointer;
+}
+
+/*menu */
+.carousel{
+    overflow: hidden;
+}
+.carousel-cell {
+   
+    text-align: center;
+    margin-top:40px;
+    width: 250px;
+    height: 400px;
+    
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+      }
+  /* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+  }
 
 /* Section Sign UP*/
 

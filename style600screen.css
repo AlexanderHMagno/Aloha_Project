@@ -7,10 +7,10 @@ body{
 
 /*menu banner */
     header{
-        height: 70px;
-        flex-wrap: nowrap;
-        justify-content:center;
-        align-items: center;
+       height: 70px;
+       flex-wrap: nowrap;
+       justify-content:center;
+       align-items: center;
                
       }
 
