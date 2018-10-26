@@ -26,8 +26,7 @@ header{
     justify-content: space-between;
     height: 120px;
     z-index: 9999;
-   
-}
+   }
 
 .menu-img{
 width: 20%;
@@ -172,9 +171,7 @@ font-weight: bold;
     grid-gap: 5px 5px;    
     color:white;
     text-shadow:  1px 1px 1px rgb(14, 0, 0);
-   
-    
-}
+   }
 
 .flex-div{
     display: flex;
@@ -184,13 +181,12 @@ font-weight: bold;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
-
 }
 
 .diva{
    
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) ,url("Images/mens-category.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     grid-column: 1 / span 2;
 }
 
@@ -214,14 +210,7 @@ font-weight: bold;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("Images/womens-category.jpg");
     background-size: 100% 100%;
     grid-column: 1 / span 2;
-    
-    
-    
 }
-
-
-
-
 
 
 /* Section Products*/
@@ -234,20 +223,7 @@ font-weight: bold;
     width: 70%;
     margin:auto;
     text-align: center;
-    
-    
    }
-
-   
-.flex-products{
-    display:flex;
-    flex-wrap: nowrap;
-    justify-content: left;
-    margin-top:80px;
-    overflow-x: auto;
-    
-}
-
 
 .products img{
     width:200px;
@@ -262,9 +238,7 @@ font-weight: bold;
     text-transform: uppercase;
     font-weight: bold;
     font-size:0.6rem;
-
 }
-
 
 .products .red_letter{
     color: #e2574c;
@@ -272,11 +246,10 @@ font-weight: bold;
     font-weight: bold;
     text-transform: capitalize;
    
-    
 }
 
 .buyingButton{
-    background-color: black;
+    background-color: #242424;
     color:white;
     border-radius: 15px;
     border:none;
@@ -294,22 +267,12 @@ font-weight: bold;
     margin-top:40px;
     width: 250px;
     height: 400px;
-    
-    background: rgb(255, 255, 255);
     border-radius: 5px;
       }
-  /* cell number */
-.carousel-cell:before {
-    display: block;
-    text-align: center;
-    line-height: 200px;
-    color: white;
-  }
-
+ 
 /* Section Sign UP*/
 
 .sign_up{
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -323,28 +286,23 @@ font-weight: bold;
     color:white;
     }
     
-    .sign_up h2{
-        text-shadow: 1px 1px #fcfcfc8e;
-        
-    }
+.sign_up h2{
+    text-shadow: 1px 1px #fcfcfc8e;
+   }
 
 .sign_up p{
     width: 90%;
     line-height: 30px;
 }
 
-
-
 .sign_up_contenedor{
 
     display: flex;
     position: relative;
     color:#969696;
-
 }
 
 .sign_up input{
-
     border-radius: 20px;
     width: 320px;
     margin-top: 20px;
@@ -354,7 +312,6 @@ font-weight: bold;
 }
 
 .sign_up button{
-
     border-radius: 20px;
     width: auto;
     padding: 0 15px;
@@ -377,16 +334,14 @@ footer{
     color: white;
     font-weight: bold;
     display: flex;
-    justify-content: space-between;
-    padding: 40px 50px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+    justify-content: space-between;
+    padding: 40px 50px;
 }
 
 .left_footer{
-    
     line-height: 16px;
 }
 
@@ -407,18 +362,20 @@ i{
 footer ul{
     display: flex;
     flex-direction: row;
+    color:white;
  }
 footer ul span{
     display: flex;
     flex-direction: row;
     color:white;
     margin-left:20px;
-    
-    }
+   }
+
 footer a {
     color: white;
 }
+
 footer .right_footer span {
     display:none;
-    
+ 
      }

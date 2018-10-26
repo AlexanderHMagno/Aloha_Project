@@ -1,12 +1,17 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 600px) {
     
+/* this media querry is disagned for users using devices over 600px screens. */
+
 body{
      font-size: 16px;
+     
+     margin:auto;
     }
 
 /*menu banner */
     header{
+      
        height: 70px;
        flex-wrap: nowrap;
        justify-content:center;
@@ -51,15 +56,9 @@ background-repeat:no-repeat, no-repeat, repeat;
 }
 
 
-
-
-
 /* Section Portfolio*/
-
-
 .portfolio{
-   
-    grid-template: 1fr 1fr/repeat(4, 1fr);
+       grid-template: 1fr 1fr/repeat(4, 1fr);
 }
 .divf{
     
@@ -103,7 +102,6 @@ background-repeat:no-repeat, no-repeat, repeat;
 footer{
 
     flex-direction: row;
-    align-items: center;
     text-align: left;
     }
 
@@ -113,7 +111,7 @@ display: flex ;
  }
 
  footer ul{
-    display: flex;
+    
     flex-direction: column;
  }
 
