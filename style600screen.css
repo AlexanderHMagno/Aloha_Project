@@ -34,11 +34,25 @@ body{
     
 /* Section New Collection */
 .new_collection{
- 
+margin-top:70px;
 background-size: auto, 210px, contain;
 background-repeat:no-repeat, no-repeat, repeat;
 
 }
+
+
+/* Section handcrafted*/
+
+.hand-crafted{
+   width: 50%;
+   min-width: 571px;
+   margin:auto;
+   
+}
+
+
+
+
 
 /* Section Portfolio*/
 
@@ -59,6 +73,7 @@ background-repeat:no-repeat, no-repeat, repeat;
 
 .products{
     padding-top: 70px;
+    width: 90%;
     }
 
 .products h2{
@@ -68,6 +83,13 @@ background-repeat:no-repeat, no-repeat, repeat;
 
 /*sign-up*/
 
+
+.sign_up p{
+    width: 50%;
+    min-width: 571px;
+    margin:20px auto;
+    
+}
 
 .sign_up input{
 
@@ -82,7 +104,7 @@ footer{
 
     flex-direction: row;
     align-items: center;
-    text-align: center;
+    text-align: left;
     }
 
 footer .right_footer span {

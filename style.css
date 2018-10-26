@@ -17,10 +17,15 @@ h1,h2{
 /* Section header */
 header{
     display:flex;
+    position:fixed;
+    top:0px;
+    width: 100%;
+    background-color:white;
     flex-wrap:wrap;
     align-items: center;
     justify-content: space-between;
     height: 120px;
+    z-index: 9999;
    
 }
 
@@ -35,18 +40,21 @@ padding: 10px;
 
 .move_menu{
     display:flex;
-    justify-content: flex-end;
+    
+        justify-content: flex-end;
 }
 
 img:active{
     background-color:rgb(6, 112, 63);
-    
     border-radius: 50%;
 }
 
 .buying{
     
     display: none;
+    position: absolute;
+    right:0px;
+    top:-5px;
     align-items: center;
     justify-content: center;
     background-color: #b64036;
@@ -56,9 +64,11 @@ img:active{
     min-width: 18px;
     text-shadow: 1px 1px #242424;
     padding:1px;
-   
+}
 
-   
+.relatives{
+    
+    position: relative;
 }
 /* Section NAV */
 
@@ -74,6 +84,10 @@ nav{
     font-weight: bold;
    
         }
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 nav li{
     display:inline;
@@ -95,7 +109,7 @@ nav a:hover {
 
 /* Section New Collection */
 .new_collection{
-
+    margin-top:120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,6 +121,7 @@ nav a:hover {
     color: white;
     font-size: 3rem;
     height: 400px;
+    text-shadow: 1px 1px 1px #969696;
        
 }
 
@@ -114,6 +129,7 @@ nav a:hover {
     padding-bottom: 20px;
     text-transform: uppercase;
     font-weight: bold;
+   
     }
 
 /*hand crafted section */
@@ -139,7 +155,9 @@ font-weight: bold;
 }
 
 .hand-crafted p{
+    width: 90%;
     line-height: 35px;
+    margin:auto;
 }
 
 
@@ -153,7 +171,7 @@ font-weight: bold;
     grid-template: repeat(4, 1fr)/1fr 1fr;
     grid-gap: 5px 5px;    
     color:white;
-    text-shadow:  1px 1px rgb(14, 0, 0);
+    text-shadow:  1px 1px 1px rgb(14, 0, 0);
    
     
 }
@@ -217,6 +235,7 @@ font-weight: bold;
     margin:auto;
     text-align: center;
     
+    
    }
 
    
@@ -226,6 +245,7 @@ font-weight: bold;
     justify-content: left;
     margin-top:80px;
     overflow-x: auto;
+    
 }
 
 
@@ -238,13 +258,19 @@ font-weight: bold;
     flex-wrap: nowrap;
     padding: 10px;
     justify-content: center;
+    color:#969696;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:0.6rem;
+
 }
 
 
-.red_letter{
+.products .red_letter{
     color: #e2574c;
     font-size: 1.2rem;
     font-weight: bold;
+    text-transform: capitalize;
    
     
 }
@@ -261,9 +287,7 @@ font-weight: bold;
 }
 
 /*menu */
-.carousel{
-    overflow: hidden;
-}
+
 .carousel-cell {
    
     text-align: center;
@@ -305,6 +329,7 @@ font-weight: bold;
     }
 
 .sign_up p{
+    width: 90%;
     line-height: 30px;
 }
 
@@ -314,6 +339,7 @@ font-weight: bold;
 
     display: flex;
     position: relative;
+    color:#969696;
 
 }
 
@@ -352,7 +378,6 @@ footer{
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-    text-align: left;
     padding: 40px 50px;
     flex-direction: column;
     align-items: center;
