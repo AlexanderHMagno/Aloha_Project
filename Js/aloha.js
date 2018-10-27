@@ -39,3 +39,25 @@ $("a").click(function() {
   scrollTop: $('.'+ dats).offset().top-90},
   750);  
     });
+
+    /* Move the screen in a slowly way */
+      
+$(".bigger_img").click(function(e) {
+
+  if (($("#bcart").text() == 0)){
+
+    alert ('You dont have products in your cart');
+    e.preventDefault();
+  } else{
+    var address = prompt("What's your address?");
+
+    if (address){
+      alert ('Thanks for shopping with us! ' + $("#bcart").text() + " products will be sending sooner to " + address)
+    } else {
+      alert ("Please provide a valid address");
+      e.preventDefault();
+    }
+    
+  };
+  
+    });
