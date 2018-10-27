@@ -2,7 +2,7 @@
 
 <a href="https://alexanderhmagno.github.io/Aloha_Project/">Project page</a>
 
-<h1 style="color:green">This is a project named Aloha. We created the web page of this company.</h1> 
+<h1 style="color:green;">This is a project named Aloha. We created the web page of this company.</h1> 
 <h2>Objective: Creat a web page for the company Aloha, following this criteria:</h2> 
 
 <hr>
@@ -10,9 +10,9 @@
 <h3>Typography:</h3> 
 
 <ul>
-<li>The base font size is 16px for all screen width 600px and up (the mobile base font size is 14px) (line 7 CSS)</li> 
-<li> The body font family is Raleway Light (line 8 CSS)</li>
-<li>The headings font family is Playfair Display (line 13 CSS)</li> 
+<li>The base font size is 16px for all screen width 600px and up (the mobile base font size is 14px) <strong>(line 7 CSS)</strong></li> 
+<li> The body font family is Raleway Light <strong>(line 8 CSS)</strong></li>
+<li>The headings font family is Playfair Display <strong>(line 13 CSS)</strong></li> 
 
 </ul>
 
@@ -21,12 +21,12 @@
 <ul>
 
 </ul>
- <li>The HEX code for the body font colour is #2d2d2d (line 6 CSS)</li>
- <li> The HEX code for the light grey text colour is #969696 (line 237 css)</li>
- <li> The HEX code for orange brand colour is #e2574c (used for links, some headings, and buttons) (line 98,244, 320 css) </li> 
-  <li>The HEX code for the link hover state colour is #b64036 (line 104 css) </li>
-  <li>The HEX code for the light grey border colour is #d7d7d7 (line 60,76 css) </li>
-  <li>The HEX code for the dark grey background colour is the footer is #242424 (line 252 ,333,64 css)</li> 
+ <li>The HEX code for the body font colour is #2d2d2d <strong>(line 6 CSS)</strong></li>
+ <li> The HEX code for the light grey text colour is #969696 <strong>(line 237 css)</strong></li>
+ <li> The HEX code for orange brand colour is #e2574c (used for links, some headings, and buttons) <strong>(line 98,244, 320 css)</strong> </li> 
+  <li>The HEX code for the link hover state colour is #b64036 <strong>(line 104 css)</strong> </li>
+  <li>The HEX code for the light grey border colour is #d7d7d7 <strong>(line 60,76 css)</strong> </li>
+  <li>The HEX code for the dark grey background colour is the footer is #242424<strong> (line 252 ,333,64 css)</strong></li> 
   </ul>
 
   <h3>Screen Sizes:</h3> 
@@ -34,7 +34,7 @@
   <ul>
   <li>The width of the desktop-friendly content area is 1240px If undertaking the responsive stretch goal, the width of the tablet-friendly content area is 600px</li>
   </ul> 
-  <p>(created a media querry for screens over 600px: Style600Screen.css)</p> 
+  <p><strong>(created a media querry for screens over 600px: Style600Screen.css)</strong></p> 
   
   <h2>Requirements:</h2> 
   <p>To receive a “Complete” for this project, your submission will need to satisfy the following criteria:</p> 
