@@ -69,6 +69,8 @@ img:active{
     
     position: relative;
 }
+
+
 /* Section NAV */
 
 nav{
@@ -81,8 +83,8 @@ nav{
     margin:auto;
     justify-content: center;
     font-weight: bold;
-   
-        }
+           }
+
 nav ul{
     display: flex;
     flex-wrap: nowrap;
@@ -139,7 +141,7 @@ nav a:hover {
     justify-content: center;
     height: 200px;
     padding:20px 0;
-   
+  
 }
 
 .title_crafted   {
