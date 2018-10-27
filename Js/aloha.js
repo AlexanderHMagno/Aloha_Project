@@ -1,3 +1,6 @@
+
+/* Shows the number of items in the cart*/
+
 $(".buyingButton").on("click", function() {
    
     $("#bcart")
@@ -7,6 +10,7 @@ $(".buyingButton").on("click", function() {
   
       });
 
+/* Increase by 1 and Shows the number of items in the cart*/
 
 function newFunction() {
     var ponte = $("#bcart").text();
@@ -16,8 +20,7 @@ function newFunction() {
 }
 
 
-
-
+/* when we are suscribing it.  it has to show to us a message  */
 $("form").on('submit',function(e) {
    
     var data = $("#Subscribe").val(); 
@@ -28,12 +31,11 @@ $("form").on('submit',function(e) {
  
       });
 
-
+/* Move the screen in a slowly way */
       
 $("a").click(function() {
   var dats = $(this).attr('rel')
- console.log('".'+dats+'"')
-  $('html,body').animate({
+   $('html,body').animate({
   scrollTop: $('.'+ dats).offset().top-90},
   750);  
     });
