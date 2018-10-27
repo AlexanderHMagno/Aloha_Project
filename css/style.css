@@ -112,7 +112,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),url("Images/banner-girl.png"),url("Images/flower-bkgd.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),url("../Images/banner-girl.png"),url("../Images/flower-bkgd.jpg");
     text-align: center;
     background-size: auto, 210px, cover;
     background-repeat: no-repeat,no-repeat,repeat;
@@ -185,29 +185,29 @@ font-weight: bold;
 
 .diva{
    
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) ,url("Images/mens-category.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) ,url("../Images/mens-category.jpg");
     background-size: 100% 100%;
     grid-column: 1 / span 2;
 }
 
 .divb{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("Images/trends-category.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../Images/trends-category.jpg");
     background-size: 100% 100%;
 }
 .divc{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) ,url("Images/glasses-category.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) ,url("../Images/glasses-category.jpg");
     background-size: 100% 100%;
 }
 .divd{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) ,url("Images/sale-category.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) ,url("../Images/sale-category.jpg");
     background-size: 100% 100%;
 }
 .dive{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Images/bags-category.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../Images/bags-category.jpg");
     background-size: 100% 100%;
 }
 .divf{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("Images/womens-category.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../Images/womens-category.jpg");
     background-size: 100% 100%;
     grid-column: 1 / span 2;
 }
@@ -277,7 +277,7 @@ font-weight: bold;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.541)) ,url("Images/wave-bkgd.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.541)) ,url("../Images/wave-bkgd.jpg");
     height: 300px;
     background-size: auto, 100% 250%;
     background-position: center, bottom;
