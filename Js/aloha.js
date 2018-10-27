@@ -29,5 +29,11 @@ $("form").on('submit',function(e) {
       });
 
 
-
-
+      
+$("a").click(function() {
+  var dats = $(this).attr('rel')
+ console.log('".'+dats+'"')
+  $('html,body').animate({
+  scrollTop: $('.'+ dats).offset().top-90},
+  750);  
+    });
