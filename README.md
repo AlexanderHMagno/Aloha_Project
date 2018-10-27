@@ -2,18 +2,21 @@
 
 <a href="https://alexanderhmagno.github.io/Aloha_Project/">Project page</a>
 
-<h1>This is a project named Aloha. We created the web page of this company.</h1> 
+<h1 style="color:green">This is a project named Aloha. We created the web page of this company.</h1> 
 <h2>Objective: Creat a web page for the company Aloha, following this criteria:</h2> 
 
 <hr>
 
-<h2>Typography:</h2> 
+<h3>Typography:</h3> 
 
-<p>The base font size is 16px for all screen width 600px and up (the mobile base font size is 14px) (line 7 CSS)</p> 
-<p> The body font family is Raleway Light (line 8 CSS)</p>
-<p>The headings font family is Playfair Display (line 13 CSS)</p> 
+<ul>
+<li>The base font size is 16px for all screen width 600px and up (the mobile base font size is 14px) (line 7 CSS)</li> 
+<li> The body font family is Raleway Light (line 8 CSS)</li>
+<li>The headings font family is Playfair Display (line 13 CSS)</li> 
 
-<p>Colours:</p>
+</ul>
+
+<h3>Colours:</h3>
 
 <ul>
 
@@ -26,7 +29,7 @@
   <li>The HEX code for the dark grey background colour is the footer is #242424 (line 252 ,333,64 css)</li> 
   </ul>
 
-  <p>Screen Sizes:</p> 
+  <h3>Screen Sizes:</h3> 
   
   <ul>
   <li>The width of the desktop-friendly content area is 1240px If undertaking the responsive stretch goal, the width of the tablet-friendly content area is 600px</li>
