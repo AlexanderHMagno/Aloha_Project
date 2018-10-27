@@ -3,8 +3,11 @@
 <a href="https://alexanderhmagno.github.io/Aloha_Project/">Project page</a>
 
 <h1>This is a project named Aloha. We created the web page of this company.</h1> 
-<p>Objective: Creat a web page for the company Aloha, following this criteria:</p> 
-<p>Typography:</p> 
+<h2>Objective: Creat a web page for the company Aloha, following this criteria:</h2> 
+
+<hr>
+
+<h2>Typography:</h2> 
 
 <p>The base font size is 16px for all screen width 600px and up (the mobile base font size is 14px) (line 7 CSS)</p> 
 <p> The body font family is Raleway Light (line 8 CSS)</p>
