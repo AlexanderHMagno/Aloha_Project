@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>aloha apparel</title>
-    <!--how to connect the html whit style css page-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/font.css">
@@ -15,34 +14,32 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 </head>
-<body>
 
-  
-        
-    <!--<h1>Aloha Apparel CO</h1>-->
+
+<body>
 
     <header>
     
         <div class="menu-img">
     
-            <img src="Images/aloha-logo.svg" alt="Aloha Apparel Co" width="150px">
+            <img src="Images/aloha-logo.svg" alt="Aloha Apparel Co" width="150">
         </div>
     
         <nav>
             <div class="menu-nav">
                 <ul>
-                    <a href="#" rel="new_collection">
-                        <li>About</li>
-                    </a>
-                    <a href="#" rel="portfolio">
-                        <li>Shop</li>
-                    </a>
-                    <a href="#" rel="products">
-                        <li>Featured</li>
-                    </a>
-                    <a href="#" rel="sign_up">
-                        <li>Updates</li>
-                    </a>
+                    <li><a href="#" id="new_collection">
+                        About
+                    </a></li>
+                    <li><a href="#" id="portfolio">
+                        Shop
+                    </a></li>
+                    <li><a href="#"  id="products">
+                       Featured
+                    </a></li>
+                    <li> <a href="#" id="sign_up">
+                        Updates
+                    </a></li>
                 </ul>
             </div>
     
@@ -50,8 +47,8 @@
     
         <div class="menu-img move_menu">
             <div class="relatives">
-                <a href=""><img class="bigger_img" src="Images/cart-icon.svg" alt="cart-icon" width="40px;"></a>
-                <span class="buying" id="bcart">0</span>
+                <a href=""><img class="bigger_img" src="Images/cart-icon.svg" alt="cart-icon" width="40"></a>
+                <span class="buying" id="bcart"></span>
             </div>
         </div>
     
@@ -59,14 +56,14 @@
 
    
 
-    <!-- New collection secction -->
+   
     <section class="new_collection">
         <p style="font-size: 1.3rem">New Collection</p>
         <h1 id="message">Spring/Summer 2018 </h1>
     
     </section>
 
-    <!-- hand-crafted secction -->
+  
 
     <section class="hand-crafted">
     
@@ -77,30 +74,31 @@
     </section>
 
 
-    <!--It shows the porfoltio of the company by group of interest-->
+    
     <section class="portfolio">
-        <div class="diva flex-div">
+      
+        <div class="diva group_portfolio">
             <p>MEN's</p>
         </div>
-        <div class="divb flex-div">
+        <div class="divb group_portfolio">
             <p>TRENDS</p>
         </div>
-        <div class="divc flex-div">
+        <div class="divc group_portfolio">
             <p>Glasses</p>
         </div>
-        <div class="divd flex-div">
+        <div class="divd group_portfolio">
             <p>SALE</p>
         </div>
-        <div class="dive flex-div">
+        <div class="dive group_portfolio">
             <p>BAGS</p>
         </div>
-        <div class="divf flex-div">
+        <div class="divf group_portfolio">
             <p>WOMEN'S</p>
         </div>
     </section>
 
     
-     <!--Section Products-->
+     
 
     <section class="products">
         <h2 class="title_crafted"><span class="title_crafted_light">Most-loved</span> Products</h2>
@@ -171,7 +169,7 @@
     </section>
 
  
-<!--Sign up section-->
+
 
     <section class="sign_up">
     
@@ -189,7 +187,7 @@
     
     </section>
 
-    <!--Footer -->
+   
 
     <footer>
     
@@ -198,10 +196,10 @@
             <p>Powered by HTML and CSS.</p><br />
             <p>604-604-6040. <a href="info@alohaapparel.com">info@alohaapparel.com</a></p>
             <br>
-            <span>
+            <div class="grey_footer">
                 <p>1490 W Broadway</p>
                 <p>Vancouver, BC, Canada</p>
-            </span>
+            </div>
         </div>
     
         <div class="right_footer">
@@ -214,6 +212,8 @@
             </ul>
         </div>
     </footer>
+
+
 
     <!-- JavaScript-->
     <script src="Js/jquery-3.3.1.min.js"></script>

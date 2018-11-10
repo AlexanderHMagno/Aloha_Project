@@ -1,10 +1,12 @@
 
+$(function (){
+
 /* Shows the number of items in the cart*/
 
 $(".buyingButton").on("click", function() {
    
     $("#bcart")
-    .text(newFunction())
+    .text(new_product())
     .css({"display":"flex"});
     
   
@@ -12,19 +14,18 @@ $(".buyingButton").on("click", function() {
 
 /* Increase by 1 and Shows the number of items in the cart*/
 
-function newFunction() {
-    var ponte = $("#bcart").text();
-    ponte ++;
-    alert(ponte + " Products in your cart")
-    return ponte;
+function new_product() {
+    let products = $("#bcart").text();
+    products ++;
+    return products;
 }
 
 
 /* when we are suscribing it.  it has to show to us a message  */
 $("form").on('submit',function(e) {
    
-    var data = $("#Subscribe").val(); 
-    alert('Thanks for subscribing!. The email provided was: ' +data);
+    let email = $("#Subscribe").val(); 
+    alert('Thanks for subscribing!. The email provided was: ' + email);
     $("#Subscribe").val("");
     e.preventDefault();
           
@@ -34,9 +35,9 @@ $("form").on('submit',function(e) {
 /* Move the screen in a slowly way */
       
 $("a").click(function() {
-  var dats = $(this).attr('rel')
+  let movement = $(this).attr('id')
    $('html,body').animate({
-  scrollTop: $('.'+ dats).offset().top-90},
+  scrollTop: $('.'+ movement).offset().top},
   750);  
     });
 
@@ -44,12 +45,13 @@ $("a").click(function() {
       
 $(".bigger_img").click(function(e) {
 
-  if (($("#bcart").text() == 0)){
+  if (($("#bcart").text() === "")){
+    
 
     alert ('You dont have products in your cart');
     e.preventDefault();
   } else{
-    var address = prompt("What's your address?");
+    let address = prompt("What's your address?");
 
     if (address){
       alert ('Thanks for shopping with us! ' + $("#bcart").text() + " products will be sending sooner to " + address)
@@ -61,3 +63,5 @@ $(".bigger_img").click(function(e) {
   };
   
     });
+
+  });

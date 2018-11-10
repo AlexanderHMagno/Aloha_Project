@@ -1,4 +1,86 @@
 
+# Aloha Project
+
+Create a web page for the company Aloha. Aloha is an apparel company. For creating this webpage I used the following: 
+
+* HTML
+* CSS
+* JavaScript
+* JQuery
+* Extension of third parts. 
+  * [Flickity](https://flickity.metafizzy.co) 
+  * [Font Awesome](https://fontawesome.com/)
+  * [JQuery](https://jquery.com/)
+* Github
+* Terminal for commiting Git Bash
+
+## HTML
+Created using sections, Following two basic premises: 
+* Windows everywhere
+* Mobil desing first
+
+#### Windows everywhere
+* Header for the top
+* Footer for the bottom
+* and the others sections where I tryed to show them in a clean and organized way.
+
+#### Mobil desing first
+I start the project thinking that the best practice is building my webpage thinking first in writing my code thinking on mobile, and then using MQuerries I shall be able to show my webpage in any device. 
+
+#### Links
+Also in HTML is the perfect place for posting the links to connect my CSS and third parts developments. 
+
+**_At the end I used an especial validator for searching any mistake commited [validator](https://validator.w3.org/nu/#textarea)_**
+
+
+
+## CSS
+An external Source was used for reseting the original rules created by default. 
+Additional to this I created a file called Style.css for saving my CSS code: 
+
+* Created following the same sections displayed on HTML (also including commentaries per section, easy to read.)
+* on this file I also added my MQuerry for devices over 600 px. 
+
+
+## Jquerry
+* Download Jquerry.
+* Created a file on my project 
+* connected to HTML at the bottom of my file. 
+
+I Used Jquerry to this project because I need to interact with some buttons and also for showing a message when the user doesnt add a proper email address. 
+
+* adding a product to the cart 
+```
+    $(".buyingButton").on("click", function() {
+    $("#bcart")
+    .text(new_product())
+    .css({"display":"flex"});
+      });
+
+/* Increase by 1 and Shows the number of items in the cart*/
+
+function new_product() {
+    let products = $("#bcart").text();
+    products ++;
+    return products;
+}
+```
+
+* additional I also added a function for slow scrool movement when the user push any of the anchors on the main menu. 
+```
+$("a").click(function() {
+  let movement = $(this).attr('id')
+   $('html,body').animate({
+  scrollTop: $('.'+ movement).offset().top},
+  750);  
+    });
+```
+
+## criteria for creating the project 
+
+
+
+
 [here](https://alexanderhmagno.github.io/Aloha_Project/)
 
 #This is a project named Aloha. We created the web page of this company.
