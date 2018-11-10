@@ -41,6 +41,8 @@ Additional to this I created a file called Style.css for saving my CSS code:
 * Created following the same sections displayed on HTML (also including commentaries per section, easy to read.)
 * on this file I also added my MQuerry for devices over 600 px. 
 
+* Additional for the movement on the products section, a mobil menu was created using FLickity.    ```<div class="carousel" data-flickity='{ "groupCells": true }'>```
+
 
 ## Jquerry
 * Download Jquerry.
