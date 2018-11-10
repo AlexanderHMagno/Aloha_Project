@@ -1,7 +1,7 @@
 
 [here](https://alexanderhmagno.github.io/Aloha_Project/)
 
-*This is a project named Aloha. We created the web page of this company.
+#This is a project named Aloha. We created the web page of this company.
 
 
 <h2>Objective: Creat a web page for the company Aloha, following this criteria:</h2> 
