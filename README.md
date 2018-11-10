@@ -1,8 +1,9 @@
 
+[here](https://alexanderhmagno.github.io/Aloha_Project/)
 
-<a href="https://alexanderhmagno.github.io/Aloha_Project/">Project page</a>
+*This is a project named Aloha. We created the web page of this company.
 
-<h1 style="color:green;">This is a project named Aloha. We created the web page of this company.</h1> 
+
 <h2>Objective: Creat a web page for the company Aloha, following this criteria:</h2> 
 
 <hr>
