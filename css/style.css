@@ -464,6 +464,11 @@ footer .right_footer span {
         .sign_up input{
             width: 350px;
          }
+
+         .labelEmail{
+            top: 1;
+            position: absolute;            
+         }
         
         
          /*footer*/
