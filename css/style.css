@@ -466,7 +466,8 @@ footer .right_footer span {
          }
 
          .labelEmail{
-            display: none;
+            top: 1;
+            position: absolute;            
          }
         
         
