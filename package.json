@@ -1,0 +1,34 @@
+{
+  "name": "aloha_project",
+  "version": "1.0.0",
+  "description": "Aloha apareil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderHMagno/Aloha_Project.git"
+  },
+  "author": "Alexander Hortua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderHMagno/Aloha_Project/issues"
+  },
+  "homepage": "https://github.com/AlexanderHMagno/Aloha_Project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-prettyerror": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.1.5",
+    "gulp-uglify": "^3.0.1",
+    "node-sass": "^4.9.4"
+  },
+  "dependencies": {
+    "gulp-eslint": "^5.0.0"
+  }
+}
