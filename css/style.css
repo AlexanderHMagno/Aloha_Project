@@ -49,6 +49,29 @@ img:active{
     border-radius: 50%;
 }
 
+.menu-img a {
+    position: relative;
+}
+
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+ }
+
+ .screen-reader-text:focus {
+    clip: auto !important;
+    display: block;
+    height: auto;
+    left: 5px;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* above all content */
+ }
+
 .buying{
     
     display: none;
@@ -127,6 +150,11 @@ nav a:hover {
        
 }
 
+
+
+#hand-crafted[tabindex="-1"]:focus {
+    outline: 0;
+ }
 .new_collection p{
     padding-bottom: 20px;
     text-transform: uppercase;
@@ -319,11 +347,16 @@ font-weight: bold;
     color: white; 
     font-weight: bold;
     position: absolute;
-    right: 1%;
+    right: 3px;
     bottom: 3%;
     cursor: pointer;
 }
 
+label{
+    position: absolute;
+    top:28px;
+    right: 20px;
+}
 
 /* Section Footer*/
 

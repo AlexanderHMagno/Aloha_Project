@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style600screen.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 </head>
@@ -21,10 +20,13 @@
     <header>
     
         <div class="menu-img">
-    
+           <a href="#">
             <img src="Images/aloha-logo.svg" alt="Aloha Apparel Co" width="150">
+            <span class="screen-reader-text">Logo image</span>
+            
+        </a>
         </div>
-    
+        <a class="screen-reader-text" href="#hand-crafted">Skip to content</a>
         <nav>
             <div class="menu-nav">
                 <ul>
@@ -57,7 +59,7 @@
    
 
    
-    <section class="new_collection">
+    <section class="new_collection" id="new_collection">
         <p style="font-size: 1.3rem">New Collection</p>
         <h1 id="message">Spring/Summer 2018 </h1>
     
@@ -65,7 +67,7 @@
 
   
 
-    <section class="hand-crafted">
+    <section class="hand-crafted" id="hand-crafted">
     
         <h2 class="title_crafted"><span class="title_crafted_light">Hand-Crafted</span> Styles</h2>
         <p>Aloha Apparel Co. Sells only the finest ready-to-travel clothing. Browse our
@@ -181,6 +183,9 @@
         <div class="sign_up_contenedor">
             <form action="#" target="_blank">
                 <input type="email" name="Your Email" placeholder="Your Email" id="Subscribe">
+                <label for="Subscribe">
+                    Subscribe
+                </label>
                 <button type="submit" id="suscribir">Subscribe</button>
             </form>
         </div>
@@ -216,6 +221,8 @@
 
 
     <!-- JavaScript-->
+    
+   <script src="Js/tota11y.min.js"></script>
     <script src="Js/jquery-3.3.1.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="Js/aloha.js"></script>
