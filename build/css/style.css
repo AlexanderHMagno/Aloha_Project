@@ -117,18 +117,17 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: fixed;
   top: 0px;
   width: 100%;
   background-color: white;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   height: 120px;
   z-index: 9999; }
 
@@ -146,10 +145,6 @@ header {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end; }
-
-img:active {
-  background-color: #06703f;
-  border-radius: 50%; }
 
 .menu-img a {
   position: relative; }
@@ -187,7 +182,7 @@ img:active {
   border-radius: 50%;
   height: 18px;
   min-width: 18px;
-  text-shadow: 1px 1px #242424;
+  text-shadow: 1px 1px #2d2d2d;
   padding: 1px; }
 
 .relatives {
@@ -198,6 +193,11 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-top: 1.5px solid #d7d7d7;
   padding: 15px;
   margin-bottom: 10px;
@@ -206,9 +206,6 @@ nav {
           order: 3;
   width: 85%;
   margin: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   font-weight: bold; }
 
 nav ul {
@@ -240,16 +237,17 @@ nav a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.1))), url("../../Images/banner-girl.png"), url("../../Images/flower-bkgd.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("../../Images/banner-girl.png"), url("../../Images/flower-bkgd.jpg");
-  text-align: center;
   background-size: auto, 210px, cover;
   background-repeat: no-repeat,no-repeat,repeat;
   background-position: center,center -23%,center;
@@ -274,13 +272,15 @@ nav a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   height: 200px;
   padding: 20px 0; }
 
@@ -305,7 +305,7 @@ nav a:hover {
   grid-template: repeat(4, 1fr)/1fr 1fr;
   grid-gap: 5px 5px;
   color: white;
-  text-shadow: 1px 1px 1px #0e0000; }
+  text-shadow: 1px 1px 1px #2d2d2d; }
 
 .group_portfolio {
   display: -webkit-box;
@@ -313,13 +313,13 @@ nav a:hover {
   display: flex;
   -ms-flex-line-pack: center;
       align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   font-size: 25px;
   text-transform: uppercase;
   font-weight: bold;
@@ -357,8 +357,7 @@ nav a:hover {
   padding-bottom: 50px;
   text-transform: capitalize;
   width: 70%;
-  margin: auto;
-  text-align: center; }
+  margin: auto; }
 
 .products img {
   width: 200px; }
@@ -367,12 +366,14 @@ nav a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  padding: 10px;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 10px;
   color: #969696;
   text-transform: uppercase;
   font-weight: bold;
@@ -385,7 +386,7 @@ nav a:hover {
   text-transform: capitalize; }
 
 .buyingButton {
-  background-color: #242424;
+  background-color: #2d2d2d;
   color: white;
   border-radius: 15px;
   border: none;
@@ -396,7 +397,6 @@ nav a:hover {
 
 /*menu */
 .carousel-cell {
-  text-align: center;
   margin-top: 40px;
   width: 250px;
   height: 400px;
@@ -407,16 +407,15 @@ nav a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.158)), to(rgba(0, 0, 0, 0.541))), url("../../Images/wave-bkgd.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.541)), url("../../Images/wave-bkgd.jpg");
   height: 300px;
@@ -431,14 +430,21 @@ nav a:hover {
 
 .sign_up p {
   width: 90%;
-  line-height: 30px; }
+  line-height: 30px;
+  margin: auto; }
 
 .sign_up_contenedor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  color: #969696; }
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #d7d7d7; }
+  .sign_up_contenedor form {
+    position: relative; }
 
 .sign_up input {
   border-radius: 20px;
@@ -450,7 +456,6 @@ nav a:hover {
 
 .sign_up button {
   border-radius: 20px;
-  width: auto;
   padding: 0 15px;
   height: 28px;
   border: none;
@@ -469,7 +474,7 @@ label {
 
 /* Section Footer*/
 footer {
-  background-color: #242424;
+  background-color: #2d2d2d;
   color: white;
   font-weight: bold;
   display: -webkit-box;

@@ -1,0 +1,11 @@
+$color-base-black:#2d2d2d;
+$color-background: white;
+$color-layout-grey:#d7d7d7;
+$color-button:#e2574c;
+
+
+@mixin flex {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}

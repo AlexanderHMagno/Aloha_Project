@@ -3,7 +3,7 @@
 body{
     min-width: 380px;
     text-align: center;
-    color:#2d2d2d;
+    color:$color-base-black;
     font-size: 14px;
     font-family: 'Raleway light', Arial, Helvetica, sans-serif;
     overflow-y: visible;
@@ -17,14 +17,12 @@ h1,h2{
 
 /* following rules apply for the Section header */
 header{
-    display:flex;
+    @include flex;
     position:fixed;
     top:0px;
     width: 100%;
-    background-color:white;
+    background-color:$color-background;
     flex-wrap:wrap;
-    align-items: center;
-    justify-content: space-between;
     height: 120px;
     z-index: 9999;
    }
@@ -44,10 +42,6 @@ padding: 10px;
         justify-content: flex-end;
 }
 
-img:active{
-    background-color:rgb(6, 112, 63);
-    border-radius: 50%;
-}
 
 .menu-img a {
     position: relative;
@@ -80,12 +74,12 @@ img:active{
     top:-5px;
     align-items: center;
     justify-content: center;
-    background-color: #e2574c;
-    color: #d7d7d7;
+    background-color: $color-button;
+    color: $color-layout-grey;
     border-radius: 50%;
     height: 18px;
     min-width: 18px;
-    text-shadow: 1px 1px #242424;
+    text-shadow: 1px 1px $color-base-black;
     padding:1px;
 }
 
@@ -98,14 +92,14 @@ img:active{
 /* Section NAV */
 
 nav{
-    display: flex;
-    border-top: 1.5px solid #d7d7d7;
+
+    @include flex;
+    border-top: 1.5px solid $color-layout-grey;
     padding: 15px;
     margin-bottom: 10px;
     order:3;
     width: 85%;
     margin:auto;
-    justify-content: center;
     font-weight: bold;
            }
 
@@ -121,7 +115,7 @@ nav li{
     }
 
 nav a{
-    color:#e2574c;
+    color:$color-button;
     text-decoration: none;  
     text-transform: uppercase;
 }
@@ -135,15 +129,13 @@ nav a:hover {
 /* Section New Collection */
 .new_collection{
     margin-top:120px;
-    display: flex;
+    @include flex;
     flex-direction: column;
-    justify-content: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),url("../../Images/banner-girl.png"),url("../../Images/flower-bkgd.jpg");
-    text-align: center;
     background-size: auto, 210px, cover;
     background-repeat: no-repeat,no-repeat,repeat;
     background-position: center,center -23%,center;
-    color: white;
+    color: $color-background;
     font-size: 3rem;
     height: 400px;
     text-shadow: 1px 1px 1px #969696;
@@ -171,9 +163,8 @@ nav a:hover {
 /*hand crafted section */
 
 .hand-crafted{
-    display: flex;
+    @include flex;
     flex-direction: column;
-    justify-content: center;
     height: 200px;
     padding:20px 0;
   
@@ -206,15 +197,13 @@ font-weight: bold;
     height: 500px;
     grid-template: repeat(4, 1fr)/1fr 1fr;
     grid-gap: 5px 5px;    
-    color:white;
-    text-shadow:  1px 1px 1px rgb(14, 0, 0);
+    color:$color-background;
+    text-shadow:  1px 1px 1px $color-base-black;
    }
 
 .group_portfolio{
-    display: flex;
-    align-content: center;
+    @include flex;
     flex-direction: column;
-    justify-content: center;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
@@ -254,18 +243,17 @@ font-weight: bold;
     text-transform: capitalize;
     width: 70%;
     margin:auto;
-    text-align: center;
-   }
+    }
 
 .products img{
     width:200px;
 }
 
 .products p { 
-    display:flex;
+
+    @include flex;
     flex-wrap: nowrap;
     padding: 10px;
-    justify-content: center;
     color:#969696;
     text-transform: uppercase;
     font-weight: bold;
@@ -273,7 +261,7 @@ font-weight: bold;
 }
 
 .products .red_letter{
-    color: #e2574c;
+    color: $color-button;
     font-size: 1.2rem;
     font-weight: bold;
     text-transform: capitalize;
@@ -281,8 +269,8 @@ font-weight: bold;
 }
 
 .buyingButton{
-    background-color: #242424;
-    color:white;
+    background-color: $color-base-black;
+    color:$color-background;
     border-radius: 15px;
     border:none;
     padding: 5px 15px;
@@ -295,7 +283,6 @@ font-weight: bold;
 
 .carousel-cell {
    
-    text-align: center;
     margin-top:40px;
     width: 250px;
     height: 400px;
@@ -305,17 +292,16 @@ font-weight: bold;
 /* Section Sign UP*/
 
 .sign_up{
-    display: flex;
+
+    @include flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.541)) ,url("../../Images/wave-bkgd.jpg");
     height: 300px;
     background-size: auto, 100% 250%;
     background-position: center, bottom;
     background-repeat: no-repeat;
-    border-bottom: 5px solid white;
-    color:white;
+    border-bottom: 5px solid $color-background;
+    color:$color-background;
     }
     
 .sign_up h2{
@@ -325,13 +311,17 @@ font-weight: bold;
 .sign_up p{
     width: 90%;
     line-height: 30px;
+    margin:auto;
 }
 
 .sign_up_contenedor{
 
-    display: flex;
-    position: relative;
-    color:#969696;
+    @include flex;
+    color:$color-layout-grey;
+
+    form{
+        position: relative;
+    }
 }
 
 .sign_up input{
@@ -345,12 +335,11 @@ font-weight: bold;
 
 .sign_up button{
     border-radius: 20px;
-    width: auto;
     padding: 0 15px;
     height: 28px;
     border: none;
-    background-color: #e2574c;
-    color: white; 
+    background-color: $color-button;
+    color: $color-background; 
     font-weight: bold;
     position: absolute;
     right: 3px;
@@ -367,8 +356,8 @@ label{
 /* Section Footer*/
 
 footer{
-    background-color:#242424;
-    color: white;
+    background-color:$color-base-black;
+    color: $color-background;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -399,17 +388,17 @@ i{
 footer ul{
     display: flex;
     flex-direction: row;
-    color:white;
+    color:$color-background;
  }
 footer ul span{
     display: flex;
     flex-direction: row;
-    color:white;
+    color:$color-background;
     margin-left:20px;
    }
 
 footer a {
-    color: white;
+    color: $color-background;
 }
 
 footer .right_footer span {
